@@ -22,7 +22,7 @@ jobs:
 
       - name: Generate quote
         env:
-          OPENAI_API_KEY: ${{ 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}}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python generate_quote.py
 
       - name: Commit and push
