@@ -2,7 +2,7 @@ import openai
 import json
 import os
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("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")
 
 response = openai.ChatCompletion.create(
     model="gpt-3.5-turbo",
