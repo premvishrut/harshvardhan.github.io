@@ -1,20 +1,38 @@
+
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>जय श्री कृष्ण - Harshvardhan</title>
+  <meta charset="UTF-8">
+  <title>Harshvardhan PremBhakti</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>🌸 जय श्री कृष्ण 🌸</h1>
-  <h2>Harshvardhan की भक्ति वेबसाइट</h2>
-  <div class="quote" id="quoteBox">
-    कृपया प्रतीक्षा करें... ✨
-  </div>
+  <header>
+    <h1>🌸 Harshvardhan PremBhakti 🌸</h1>
+  </header>
+
+  <main>
+    <section class="weather-section">
+      <h2>☁️ ब्रज मौसम वृतांत</h2>
+      <div id="weather-box">🔄 मौसम ला रहे हैं...</div>
+    </section>
+
+    <section class="vachan-section">
+      <h2>📖 आज का वचन</h2>
+      <div id="vachan-box">🔄 वचन ला रहे हैं...</div>
+    </section>
+
+    <section class="audio-section">
+      <h3>🎵 बाँसुरी की मधुर धुन</h3>
+      <audio id="bg-audio" src="assets/bansuri-loop.mp3" autoplay loop controls></audio>
+    </section>
+  </main>
+
   <footer>
-    © 2025 Harshvardhan | श्रीकृष्ण को समर्पित
+    <p>Seva by Harshvardhan • With Rasik Prem 💖</p>
   </footer>
-  <script src="script.js"></script>
+
+  <script src="js/weather.js"></script>
+  <script src="js/aajKaVachan.js"></script>
 </body>
 </html>
